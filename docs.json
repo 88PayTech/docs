@@ -26,65 +26,82 @@
         {
           "anchor": "Blog",
           "icon": "newspaper",
+          "hidden": true,
           "href": "https://mintlify.com/blog"
         }
       ]
     },
-    "tabs": [
+    "versions": [
       {
-        "tab": "Guides",
-        "groups": [
+        "version": "1.0",
+        "languages": [
           {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            "language": "es",
+            "tabs": [
+              {
+                "tab": "Guides",
+                "groups": [
+                  {
+                    "group": "Getting started",
+                    "pages": [
+                      "index",
+                      "quickstart",
+                      "development"
+                    ]
+                  },
+                  {
+                    "group": "Customization",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Writing content",
+                    "pages": [
+                      "essentials/markdown",
+                      "essentials/code",
+                      "essentials/images",
+                      "essentials/reusable-snippets"
+                    ]
+                  },
+                  {
+                    "group": "AI tools",
+                    "pages": [
+                      "ai-tools/cursor",
+                      "ai-tools/claude-code",
+                      "ai-tools/windsurf"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "API reference",
+                "groups": [
+                  {
+                    "group": "API documentation",
+                    "pages": [
+                      "api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "group": "Endpoint examples",
+                    "pages": [
+                      "api-reference/endpoint/get",
+                      "api-reference/endpoint/create",
+                      "api-reference/endpoint/delete",
+                      "api-reference/endpoint/webhook"
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "language": "en"
           },
           {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "language": "ru"
           }
         ]
       }
