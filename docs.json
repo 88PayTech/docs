@@ -12,6 +12,24 @@
     "dark": "/logo/logo-light.png"
   },
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Dashboard",
+          "icon": "book-open-cover",
+          "color": {
+            "light": "#08083a",
+            "dark": "#08083a"
+          },
+          "href": "https://dash.88pay.io/"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://mintlify.com/blog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -70,21 +88,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/logo-dark.png",
@@ -128,5 +132,10 @@
   },
   "background": {
     "decoration": "windows"
+  },
+  "api": {
+    "playground": {
+      "display": "interactive"
+    }
   }
 }
