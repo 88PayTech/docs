@@ -39,48 +39,7 @@
             "language": "es"
           },
           {
-            "language": "en",
-            "products": [
-              {
-                "product": "88Pay API",
-                "color": {
-                  "light": "#171D4A",
-                  "dark": "#171D4A"
-                },
-                "tabs": [
-                  {
-                    "tab": "Guides",
-                    "dropdowns": [
-                      {
-                        "dropdown": "Start here",
-                        "pages": [
-                          "1-0/en/88-pay-api/guides/start-here/welcome",
-                          "1-0/en/88-pay-api/guides/start-here/quickstart",
-                          "1-0/en/88-pay-api/guides/start-here/how-it-works",
-                          "1-0/en/88-pay-api/guides/start-here/environments",
-                          "1-0/en/88-pay-api/guides/start-here/go-live-checklist"
-                        ]
-                      },
-                      {
-                        "dropdown": "Core concepts",
-                        "groups": [
-                          {
-                            "group": "Grupo",
-                            "pages": [
-                              "1-0/en/88-pay-api/guides/core-concepts/grupo/amount",
-                              "1-0/en/88-pay-api/guides/core-concepts/grupo/status"
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "tab": "API Referencia"
-                  }
-                ]
-              }
-            ]
+            "language": "en"
           },
           {
             "language": "ru"
