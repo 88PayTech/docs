@@ -33,6 +33,12 @@
             "product": "88Pay API",
             "tabs": [
               {
+                "tab": "Prueba",
+                "pages": [
+                  "en/88-pay-api/prueba/seccionado"
+                ]
+              },
+              {
                 "tab": "Guides",
                 "groups": [
                   {
