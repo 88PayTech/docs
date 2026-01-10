@@ -34,18 +34,22 @@
             "tabs": [
               {
                 "tab": "Prueba",
-                "pages": [
-                  "en/88-pay-api/prueba/seccionado",
-                  "en/88-pay-api/prueba/seccionado-copied-1",
-                  "en/88-pay-api/prueba/seccionado-copied-10",
-                  "en/88-pay-api/prueba/seccionado-copied-9",
-                  "en/88-pay-api/prueba/seccionado-copied-8",
-                  "en/88-pay-api/prueba/seccionado-copied-7",
-                  "en/88-pay-api/prueba/seccionado-copied-6",
-                  "en/88-pay-api/prueba/seccionado-copied-5",
-                  "en/88-pay-api/prueba/seccionado-copied-4",
-                  "en/88-pay-api/prueba/seccionado-copied-3",
-                  "en/88-pay-api/prueba/seccionado-copied-2"
+                "groups": [
+                  {
+                    "group": "otroa",
+                    "pages": [
+                      "en/88-pay-api/prueba/otroa/nuevo",
+                      "en/88-pay-api/prueba/otroa/nuevo-copied-2",
+                      "en/88-pay-api/prueba/otroa/nuevo-copied-1"
+                    ]
+                  },
+                  {
+                    "group": "otro",
+                    "pages": [
+                      "en/88-pay-api/prueba/otro/nuevo",
+                      "en/88-pay-api/prueba/otro/nuevo-copied-1"
+                    ]
+                  }
                 ]
               },
               {
