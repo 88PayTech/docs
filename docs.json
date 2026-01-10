@@ -22,29 +22,36 @@
             "dark": "#08083a"
           },
           "href": "https://dash.88pay.io/"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "hidden": true,
-          "href": "https://mintlify.com/blog"
         }
       ]
     },
-    "versions": [
+    "languages": [
       {
-        "version": "1.0",
-        "languages": [
+        "language": "en",
+        "products": [
           {
-            "language": "es"
+            "product": "88Pay API",
+            "tabs": [
+              {
+                "tab": "Guides",
+                "menu": [
+                  {
+                    "item": "ITEM",
+                    "pages": [
+                      "en/88-pay-api/guides/item/page"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
-            "language": "en"
-          },
-          {
-            "language": "ru"
+            "product": "Dashboard"
           }
         ]
+      },
+      {
+        "language": "es"
       }
     ]
   },
