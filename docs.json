@@ -34,11 +34,23 @@
             "tabs": [
               {
                 "tab": "Guides",
-                "menu": [
+                "groups": [
                   {
-                    "item": "ITEM",
+                    "group": "Start here",
                     "pages": [
-                      "en/88-pay-api/guides/item/page"
+                      "en/88-pay-api/guides/start-here/welcome",
+                      "en/88-pay-api/guides/start-here/quickstart",
+                      "en/88-pay-api/guides/start-here/how-it-works",
+                      "en/88-pay-api/guides/start-here/environments",
+                      "en/88-pay-api/guides/start-here/go-live-checklist"
+                    ]
+                  },
+                  {
+                    "group": "Authentication",
+                    "pages": [
+                      "en/88-pay-api/guides/authentication/get-api-key",
+                      "en/88-pay-api/guides/authentication/generate-token",
+                      "en/88-pay-api/guides/authentication/session-id"
                     ]
                   }
                 ]
